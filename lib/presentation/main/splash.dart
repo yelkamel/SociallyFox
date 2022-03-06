@@ -29,30 +29,22 @@ class SplashScreen extends HookWidget {
     }, []);
 
     return Scaffold(
-      body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/splashcreen.png"),
-            fit: BoxFit.fitWidth,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          AnimatedOpacity(
+            opacity: logoValue.value,
+            duration: const Duration(milliseconds: 1700),
+            child: logo,
+            onEnd: onEnd,
           ),
-        ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            AnimatedOpacity(
-              opacity: logoValue.value,
-              duration: const Duration(milliseconds: 1700),
-              child: logo,
-              onEnd: onEnd,
-            ),
-            const SizedBox(width: double.infinity, height: 100),
-            AnimatedOpacity(
-              opacity: textValue.value,
-              duration: const Duration(seconds: 1),
-              child: bottom,
-            )
-          ],
-        ),
+          const SizedBox(width: double.infinity, height: 100),
+          AnimatedOpacity(
+            opacity: textValue.value,
+            duration: const Duration(seconds: 1),
+            child: bottom,
+          )
+        ],
       ),
     );
   }

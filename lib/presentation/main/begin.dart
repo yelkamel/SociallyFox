@@ -11,14 +11,11 @@ class Begin extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final index = useState(0);
-    return FadeTransitionner(
-      index.value == 0
-          ? SplashScreen(
-              FlutterLogo(),
-              Text('B'),
-              onEnd: () => index.value = 1,
-            )
-          : SelectGoal(),
+
+    return SplashScreen(
+      FlutterLogo(),
+      Text('B'),
+      onEnd: () {},
     );
   }
 }
