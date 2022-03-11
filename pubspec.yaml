@@ -12,10 +12,13 @@ dependencies:
   flutter:
     sdk: flutter
   # Firebase
+  firebase_core: ^1.13.1
+  firebase_core_web: ^1.6.1
   firebase_auth: ^3.3.9
-
-  # Service
-
+  firebase_auth_web: ^3.3.9
+  cloud_firestore: ^3.1.10
+  cloud_firestore_web: ^2.6.10
+  
   # Tools
   intl: ^0.17.0
   get: ^4.6.1
@@ -26,6 +29,9 @@ dependencies:
       url: https://github.com/yelkamel/layoutools
 
   cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^1.0.0+2
+  flutter_animation_progress_bar: ^2.0.1
+  tap_debouncer: ^2.0.2
 
 dev_dependencies:
   flutter_test:

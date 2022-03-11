@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>497122983996-0q5f79us19mqiq0v5tt63rcr0g5v06t8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.497122983996-0q5f79us19mqiq0v5tt63rcr0g5v06t8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBZtXD0BLi9s0ZTQB2WZLCR2XyWQYsbjvo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>497122983996</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>LaYouCeferie.SociallyFox</string>
+	<key>PROJECT_ID</key>
+	<string>sociallyfox-9b4e7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sociallyfox-9b4e7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:497122983996:ios:d77c08e432752e4f</string>
+	<key>DATABASE_URL</key>
+	<string>https://sociallyfox-9b4e7.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-8940809686708716~8526128427</string>
+</dict>
+</plist>

@@ -79,7 +79,7 @@ packages:
     source: hosted
     version: "1.1.0"
   cloud_firestore:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: cloud_firestore
       url: "https://pub.dartlang.org"
@@ -93,7 +93,7 @@ packages:
     source: hosted
     version: "5.5.1"
   cloud_firestore_web:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: cloud_firestore_web
       url: "https://pub.dartlang.org"
@@ -170,14 +170,14 @@ packages:
     source: hosted
     version: "6.2.1"
   firebase_auth_web:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: firebase_auth_web
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.3.9"
   firebase_core:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: firebase_core
       url: "https://pub.dartlang.org"
@@ -191,7 +191,7 @@ packages:
     source: hosted
     version: "4.2.5"
   firebase_core_web:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: firebase_core_web
       url: "https://pub.dartlang.org"
@@ -202,6 +202,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_animation_progress_bar:
+    dependency: "direct main"
+    description:
+      name: flutter_animation_progress_bar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.1"
   flutter_lints:
     dependency: transitive
     description:
@@ -359,6 +366,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  smooth_page_indicator:
+    dependency: "direct main"
+    description:
+      name: smooth_page_indicator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+2"
   source_gen:
     dependency: transitive
     description:
@@ -401,6 +415,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.0"
+  tap_debouncer:
+    dependency: "direct main"
+    description:
+      name: tap_debouncer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.2"
   term_glyph:
     dependency: transitive
     description:
